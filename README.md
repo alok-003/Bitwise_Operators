@@ -1,4 +1,4 @@
-## Bitwise Operators
+# Bitwise Operators
 Experiment 4
 
 # AIM
@@ -31,72 +31,76 @@ Binary Setting
 Resetting a bit involves changing the bit at a specific position to 0 while keeping other bits unchanged. This operation is commonly used to deactivate specific flags or bits.
 
 # Algorithm
+
 Algorithm for Bitwise Operators
-Start
 
-Declare two integer variables: a and b.
+- Start
 
-Ask and Read First Number
+- Declare two integer variables: a and b.
 
-Output the prompt: "Enter the number1:".
-Read the input value and store it in variable a.
-Ask and Read Second Number
+- Ask and Read First Number
 
-Output the prompt: "Enter the number2:".
-Read the input value and store it in variable b.
-Perform Bitwise AND Operation
+- Output the prompt: "Enter the number1:".
+  Read the input value and store it in variable a.
+  Ask and Read Second Number
 
-Compute the result of a & b.
-Output the result.
-Perform Bitwise OR Operation
+- Output the prompt: "Enter the number2:".
+  Read the input value and store it in variable b.
+  Perform Bitwise AND Operation
 
-Compute the result of a | b.
-Output the result.
-Perform Bitwise NOT Operation
+- Compute the result of a & b.
+  Output the result.
+  Perform Bitwise OR Operation
 
-Compute the result of ~a.
-Output the result.
-Perform Bitwise XOR Operation
+- Compute the result of a | b.
+  Output the result.
+  Perform Bitwise NOT Operation
 
-Compute the result of a ^ b.
-Output the result.
-Perform Left Shift Operation
+- Compute the result of ~a.
+  Output the result.
+  Perform Bitwise XOR Operation
 
-Compute the result of a << 1 (left shift by 1 position).
-Output the result.
-Perform Right Shift Operation
+- Compute the result of a ^ b.
+  Output the result.
+  Perform Left Shift Operation
 
-Compute the result of a >> 2 (right shift by 2 positions).
-Output the result.
-Compute the result of a >> 2 (right shift by 2 positions).
+- Compute the result of a << 1 (left shift by 1 position).
+  Output the result.
+  Perform Right Shift Operation
 
-Output the result.
+- Compute the result of a >> 2 (right shift by 2 positions).
+  Output the result.
+  Compute the result of a >> 2 (right shift by 2 positions).
 
-End
+- Output the result.
+
+- End
 
 # Algorithm for Set and Reset
-Start
 
-Declare Variables
+- Start
 
-int a, i, set, reset;.
-Prompt for and Read Input Values
+- Declare Variables
 
-Display the message Enter the number.
-Read the integer value into variable a.
-Display the message Enter the places to shift.
-Read the integer value into variable i.
-Compute
+- int a, i, set, reset;.
+  Prompt for and Read Input Values
 
-Create a functionality for setting and resetting by shifting 1 left by i positions: 1 << i.
-Set the Bit
+- Display the message Enter the number.
+  Read the integer value into variable a.
+  Display the message Enter the places to shift.
+  Read the integer value into variable i.
+  Compute
 
-Compute the result by performing OR operation: set = a | (1 << i).
-Reset the Bit
+- Create a functionality for setting and resetting by shifting 1 left by i positions: 1 << i.
+  Set the Bit
 
-Compute the result by performing AND operation with the inverted one: reset = a & (~(1 << i)).
-Output Results
+- Compute the result by performing OR operation: set = a | (1 << i).
+  Reset the Bit
 
-Display the result of resetting the bit: cout << reset << endl;.
-Display the result of setting the bit: cout << set;.
-End
+- Compute the result by performing AND operation with the inverted one: reset = a & (~(1 << i)).
+  Output Results
+
+- Display the result of resetting the bit: cout << reset << endl;.
+  Display the result of setting the bit: cout << set;.
+
+- End
